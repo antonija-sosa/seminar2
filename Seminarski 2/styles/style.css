@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image:  url('slike/7.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1,h2 {
+  font-family: "Lora", sans-serif;
+  color: #735240;}
+
+p, li, a{
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+header{
+  height: 200px;
+}
+
+#logo1{
+
+  float: left;
+  height: 75%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+
+.menu{
+  display:flex;
+  float: right;
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  color:#735240;
+}
+
+.menu a:hover {
+  color: #bfada3;
+  text-decoration: underline;
+}
+
+
+
+.menu li {
+  list-style: none;
+  padding:30px;
+}
+
+.index{
+  display: flex;
+  overflow-x: hidden;
+}
+
+.index img{
+ margin-left: auto;
+}
+
+.index h2{
+  display: inline-block;
+  position: absolute;
+  margin-top: 15%;
+  margin-bottom: auto;
+  font-size: 3.5em;
+  letter-spacing: 5px;
+  color: #735240;
+  margin-left: 1%;
+}
+
+footer {
+  background-color: white;
+
+}
+
+footer p {
+  text-align: center;
+  color: #8C756A;
+  padding: 0.5rem;
+}
+
+/* o nama */
+
+
+
